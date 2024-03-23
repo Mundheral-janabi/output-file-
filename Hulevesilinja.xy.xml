@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LandXML xmlns="http://buildingsmart.fi/inframodel/404" xmlns:im="http://buildingsmart.fi/im/404" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://buildingsmart.fi/inframodel/404 https://buildingsmart.fi/infra/schema/4.0.4/inframodel.xsd http://buildingsmart.fi/im/404 https://buildingsmart.fi/infra/schema/4.0.4/im.xsd" version="1.2" date="2024-02-05" time="09:11:30" language="finnish" readOnly="false">
+	<Units>
+		<Metric areaUnit="squareMeter" linearUnit="meter" volumeUnit="cubicMeter" temperatureUnit="celsius" pressureUnit="HPA" diameterUnit="meter" widthUnit="meter" heightUnit="meter" velocityUnit="kilometersPerHour" angularUnit="grads" directionUnit="grads" elevationUnit="meter"/>
+	</Units>
+	<CoordinateSystem name="GK25" epsgCode="3879" rotationAngle="0" verticalCoordinateSystemName="N2000"/>
+	<FeatureDictionary name="inframodel" version="4.0.4">
+		<DocFileRef name="Inframodel extensions" location="https://buildingsmart.fi/infra/inframodel/pages/extensions.html"/>
+	</FeatureDictionary>
+	<Project name="Hulevesilinja.xy.xml" desc="Hulevesilinja.xy.xml">
+		<Feature code="IM_codings" source="inframodel">
+			<Property label="terrainCoding" value="Infra"/>
+			<Property label="surfaceCoding" value="InfraBIM"/>
+			<Property label="infraCoding" value="InfraBIM"/>
+		</Feature>
+	</Project>
+	<Application name="3D-Win" manufacturer="Novatron Oy" version="2023.4.0.0" manufacturerURL="https://3d-system.fi" timeStamp="2024-02-05T09:11:30+02:00">
+		<Author createdBy="Nuutti Lanu" createdByEmail="nuutti.lanu@kerava.fi" company="Keravan kaupunki" companyURL="www.kerava.fi"/>
+	</Application>
+	<Surfaces name="Hulevesilinja">
+		<Surface name="Hulevesilinja">
+			<SourceData>
+				<Breaklines>
+					<Breakline brkType="standard" name="1">
+						<PntList3D>6697055.582000 25505684.453000 35.050000 6697056.606000 25505682.932000 35.044000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS315M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 315mm"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name="2">
+						<PntList3D>6697056.606000 25505682.932000 35.044000 6697053.288000 25505680.698000 35.026000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS450M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 450mm"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name="3">
+						<PntList3D>6697049.298000 25505664.066000 34.948000 6697024.672000 25505659.758000 34.861000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS450M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 450mm"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name="4">
+						<PntList3D>6697024.672000 25505659.758000 34.861000 6696990.268000 25505653.741000 34.739000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS450M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 450mm"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name="5">
+						<PntList3D>6696990.268000 25505653.741000 34.739000 6696990.215000 25505642.909000 34.701000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS450M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 450mm"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name="6">
+						<PntList3D>6696990.215000 25505642.909000 34.701000 6696999.091000 25505592.165000 34.521000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS450M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 450mm"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name="7">
+						<PntList3D>6696999.091000 25505592.165000 34.521000 6697007.999000 25505541.232000 34.340000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS450M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 450mm"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name="8">
+						<PntList3D>6697007.999000 25505541.232000 34.340000 6697020.935000 25505533.876000 34.288000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS450M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 450mm"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name="9">
+						<PntList3D>6697020.935000 25505533.876000 34.288000 6697043.317000 25505540.014000 34.207000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS450M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 450mm"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name="10">
+						<PntList3D>6697043.317000 25505540.014000 34.207000 6697063.599000 25505517.273000 34.100000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS450M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 450mm"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name="11">
+						<PntList3D>6697063.599000 25505517.273000 34.100000 6697067.260000 25505513.168000 34.081000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS450M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 450mm"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name="12">
+						<PntList3D>6697056.606000 25505682.932000 36.043000 6697066.510000 25505676.442000 36.457000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS315M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 315mm"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name="13">
+						<PntList3D>6697049.298000 25505664.066000 35.090000 6697040.970000 25505671.913000 35.250000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS315M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 315mm"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name="14">
+						<PntList3D>6697049.298000 25505664.066000 35.240000 6697049.812000 25505661.110000 35.270000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS160M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 160mm"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name="15">
+						<PntList3D>6697053.288000 25505680.698000 35.026000 6697049.298000 25505664.066000 34.949000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="infraCoding" value="DS450M"/>
+							<Property label="infraCodingDesc" value="Hulevesi muovi 450mm"/>
+						</Feature>
+					</Breakline>
+				</Breaklines>
+			</SourceData>
+			<Feature code="IM_coding" source="inframodel">
+				<Property label="surfaceCoding" value="312112"/>
+				<Property label="surfaceCodingDesc" value="Hulevesiviemäriputket muovi (viettoviemärit)"/>
+				<Property label="infraCoding" value="312112"/>
+				<Property label="infraCodingDesc" value="Hulevesiviemäriputket muovi (viettoviemärit)"/>
+			</Feature>
+		</Surface>
+	</Surfaces>
+</LandXML>
